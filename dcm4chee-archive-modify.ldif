@@ -1860,7 +1860,7 @@ olcAttributeTypes: ( 1.2.40.0.13.1.15.0.3.382 NAME 'dcmUserIdentityNegotiationRo
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
   SINGLE-VALUE )
 olcAttributeTypes: ( 1.2.40.0.13.1.15.0.3.383 NAME 'dcmUserIdentityNegotiationKeycloakClientID'
-  DESC 'Keycloak Client ID referring Keycloak connection configuration for verifying passed username and password or JSON Web Token. If absent, System Properties ${auth-server-url}, ${realm-name:dcm4che}, ${ui-client-id:khiredPacs-ui}, ${disable-trust-manager:false}, ${allow-any-hostname:true} will be applied.'
+  DESC 'Keycloak Client ID referring Keycloak connection configuration for verifying passed username and password or JSON Web Token. If absent, System Properties ${auth-server-url}, ${realm-name:dcm4che}, ${ui-client-id:dcm4chee-arc-ui}, ${disable-trust-manager:false}, ${allow-any-hostname:true} will be applied.'
   EQUALITY caseExactMatch
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
   SINGLE-VALUE )
